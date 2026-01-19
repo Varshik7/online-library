@@ -1,3 +1,4 @@
+// Navigation bar component
 import { Link } from "react-router-dom";
 
 function Navbar() {
