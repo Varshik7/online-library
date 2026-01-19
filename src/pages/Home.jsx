@@ -1,3 +1,4 @@
+// Home page showing categories and popular books
 import { Link } from "react-router-dom";
 import books from "../data/books";
 
