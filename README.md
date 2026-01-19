@@ -11,3 +11,5 @@
 3. Open in browser
    http://localhost:5173
 
+Project created as part of React Assignment.
+
