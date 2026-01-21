@@ -2,6 +2,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
+
 function BookDetails() {
   const { id } = useParams();
   const book = useSelector(state =>
@@ -9,6 +10,7 @@ function BookDetails() {
   );
 
   if (!book) return <h2>Book not found</h2>;
+
 
   return (
     <div>
